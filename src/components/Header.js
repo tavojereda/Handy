@@ -14,7 +14,7 @@ const HeaderModal = () => {
 const Header = props => {
   return (
     <div className="Header">
-      <Navbar className="page-footer" expand="lg">
+      <Navbar className="navbar" expand="lg">
         <Navbar.Brand className="navbar-brand" href="/">
           Handy
         </Navbar.Brand>
@@ -25,14 +25,14 @@ const Header = props => {
             <FormControl
               classname="form-control"
               type="text"
-              placeholder="Search"
+              placeholder="Busqueda"
             />
-            <Button className="button" variant="outline-success">
+            <Button className="navbar-button" variant="outline-success">
               Busqueda
             </Button>
           </Form>
           <Form inline>
-            <Button className="button" variant="outline-success">
+            <Button className="navbar-button" variant="outline-success">
               Ingresar
             </Button>
           </Form>

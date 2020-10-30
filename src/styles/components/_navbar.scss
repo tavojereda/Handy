@@ -12,17 +12,21 @@
 }
 
 .form-inline .form-control {
+  padding: 12px 20px;
+}
+
+.form-inline .form-control {
   width: 400px;
   font-size: $xs-size;
   margin-right: 0px;
 }
 
-.button {
-  font-size: $xs-size;
-  background-color: $mint-green;
-  border-color: $mint-green;
-  margin-right: 50px;
-  color: white;
+.navbar-button {
+  font-size: $xxs-size;
+  background-color: $mint-green !important;
+  border-color: $mint-green !important;
+  margin-right: 150px;
+  color: white !important;
 }
 
 .navbar-toggle {
