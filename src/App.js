@@ -5,14 +5,16 @@ import Header from "./components/Header";
 import CarouselMain from "./components/CarouselMain";
 import "normalize.css/normalize.css";
 //import "./styles/styles.scss";
+import Footer from "./components/Footer";
+import Categories from "./components/Categories";
 
 function App() {
   return (
     <body>
       <Header />
       <CarouselMain />
-      <Main />
-      <Header />
+      <Categories />
+      <Footer />
     </body>
   );
 }
