@@ -14,7 +14,7 @@ const HeaderModal = () => {
 const Header = props => {
   return (
     <div className="Header">
-      <Navbar className="navbar" expand="lg">
+      <Navbar className="page-footer" expand="lg">
         <Navbar.Brand className="navbar-brand" href="/">
           Handy
         </Navbar.Brand>
