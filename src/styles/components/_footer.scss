@@ -1,3 +1,16 @@
-.page-footer{
-    color: blue;
+footer{
+    background-color: $strong-orange;
+    height: 25rem;
+}
+
+footer.page-footer .footer-copyright{
+    margin-top: 3.1rem;
+}
+
+.footer-text-body{
+    font-size: $xxs-size;
+}
+
+.footer-text-title{
+    font-size: $s-size;
 }
