@@ -1,18 +1,37 @@
 import React from "react";
 import "../styles/styles.scss";
+import Button from "react-bootstrap/Button";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
+import Nav from "react-bootstrap/Nav";
+import Form from "react-bootstrap/Form";
+import FormControl from "react-bootstrap/FormControl";
+
 const HeaderModal = () => {
   return <div>Some Text</div>;
 };
 
 const Header = props => {
   return (
-    <div className="header">
-      <div className="container">
-        <h1 className="header__title">{props.title}</h1>
-        {props.subtitle && (
-          <h2 className="header__subtitle">{props.subtitle}</h2>
-        )}
-      </div>
+    <div className="Header">
+      <Navbar className="navbar" expand="lg">
+        <Navbar.Brand className="navbar-brand" href="/">
+          Handy
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mr-auto"></Nav>
+          <Form inline>
+            <FormControl
+              classname="form-control"
+              type="text"
+              placeholder="Search"
+            />
+            <Button variant="outline-success">Search</Button>
+          </Form>
+        </Navbar.Collapse>
+        <Button variant="outline-success">Sign in</Button>
+      </Navbar>
     </div>
   );
 };
