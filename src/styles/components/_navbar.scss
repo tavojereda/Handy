@@ -14,7 +14,15 @@
 .form-inline .form-control {
   width: 400px;
   font-size: $xs-size;
-  margin-right: 100000px;
+  margin-right: 0px;
+}
+
+.button {
+  font-size: $xs-size;
+  background-color: $mint-green;
+  border-color: $mint-green;
+  margin-right: 50px;
+  color: white;
 }
 
 .navbar-toggle {
