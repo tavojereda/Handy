@@ -18,7 +18,7 @@ const routes = (
     <Switch>
       <Route path="/" component={App} exact={true} />
       <Route path="/purchase" component={Purchase} />
-      <Route component={NotFound} />
+      <Route component={App} />
     </Switch>
   </BrowserRouter>
 );
