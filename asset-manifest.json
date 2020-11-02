@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Handy/static/css/main.4fd6a055.chunk.css",
+    "main.js": "/Handy/static/js/main.ebbcb34b.chunk.js",
+    "main.js.map": "/Handy/static/js/main.ebbcb34b.chunk.js.map",
+    "runtime-main.js": "/Handy/static/js/runtime-main.e8cfd4cb.js",
+    "runtime-main.js.map": "/Handy/static/js/runtime-main.e8cfd4cb.js.map",
+    "static/css/2.38b2e9a3.chunk.css": "/Handy/static/css/2.38b2e9a3.chunk.css",
+    "static/js/2.95eed978.chunk.js": "/Handy/static/js/2.95eed978.chunk.js",
+    "static/js/2.95eed978.chunk.js.map": "/Handy/static/js/2.95eed978.chunk.js.map",
+    "static/js/3.dceb5f8f.chunk.js": "/Handy/static/js/3.dceb5f8f.chunk.js",
+    "static/js/3.dceb5f8f.chunk.js.map": "/Handy/static/js/3.dceb5f8f.chunk.js.map",
+    "index.html": "/Handy/index.html",
+    "static/css/2.38b2e9a3.chunk.css.map": "/Handy/static/css/2.38b2e9a3.chunk.css.map",
+    "static/css/main.4fd6a055.chunk.css.map": "/Handy/static/css/main.4fd6a055.chunk.css.map",
+    "static/js/2.95eed978.chunk.js.LICENSE.txt": "/Handy/static/js/2.95eed978.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/Handy/static/media/arrow_right.0897f985.svg",
+    "static/media/all.min.css": "/Handy/static/media/fa-solid-900.46fdbd2d.woff",
+    "static/media/logo.2d27ead7.svg": "/Handy/static/media/logo.2d27ead7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e8cfd4cb.js",
+    "static/css/2.38b2e9a3.chunk.css",
+    "static/js/2.95eed978.chunk.js",
+    "static/css/main.4fd6a055.chunk.css",
+    "static/js/main.ebbcb34b.chunk.js"
+  ]
+}
